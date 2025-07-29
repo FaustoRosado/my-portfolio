@@ -239,13 +239,13 @@
                     </div>
                     <div class="modal-body">
                         <div class="resume-container">
-                            <div class="resume-header">
-                                <h1 class="resume-name">Fausto Rosado</h1>
-                                <div class="resume-contact">
-                                    New York, NY | 718-536-9149 | faustrosado@gmail.com<br>
-                                    linkedin.com/in/fausto-codes | github.com/FaustoRosado
-                                </div>
-                            </div>
+                                                         <div class="resume-header">
+                                 <h1 class="resume-name">Fausto Rosado</h1>
+                                 <div class="resume-contact">
+                                     New York, NY | 347-280-3080 | faustrosado@gmail.com<br>
+                                     linkedin.com/in/fausto-codes | github.com/FaustoRosado
+                                 </div>
+                             </div>
                             
                             <div class="resume-section">
                                 <h2 class="section-title">Summary</h2>
@@ -335,13 +335,37 @@
                 </div>
             </div>
             
+            <!-- Booking Section -->
+            <div class="booking-section">
+                <h3>🔧 Book My Services</h3>
+                <div class="booking-content">
+                    <p>Need IT support, cybersecurity consultation, or web development services? Book me directly through HelloTech for professional, reliable service.</p>
+                    <div class="booking-button">
+                        <a href="https://www.hellotech.com/schedule/240665" target="_blank" class="book-btn">
+                            <span class="btn-icon">📅</span>
+                            <span class="btn-text">Book Appointment</span>
+                        </a>
+                    </div>
+                    <div class="booking-details">
+                        <p><strong>Services Available:</strong></p>
+                        <ul>
+                            <li>IT Support & Troubleshooting</li>
+                            <li>Cybersecurity Consultation</li>
+                            <li>Web Development Projects</li>
+                            <li>Network Setup & Configuration</li>
+                            <li>Smart Home Installation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
             <!-- Simple Contact Section -->
             <div class="simple-contact">
                 <h3>📞 Contact Me</h3>
                 <div class="contact-links">
                     <a href="mailto:faustrosado@gmail.com" class="contact-link">📧 Email</a>
                     <a href="https://linkedin.com/in/fausto-codes" target="_blank" class="contact-link">💼 LinkedIn</a>
-                    <a href="tel:718-536-9149" class="contact-link">📱 Phone</a>
+                    <a href="tel:347-280-3080" class="contact-link">📱 Phone</a>
                     <a href="https://github.com/FaustoRosado" target="_blank" class="contact-link">🐙 GitHub</a>
                 </div>
             </div>
@@ -471,16 +495,106 @@
                 margin: 20px 0;
             }
             
-            /* Simple Contact Section */
-            .simple-contact {
-                background: rgba(255, 255, 255, 0.95);
-                border-radius: 15px;
-                padding: 25px;
-                margin: 20px auto;
-                max-width: 600px;
-                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-                text-align: center;
-            }
+                         /* Booking Section */
+             .booking-section {
+                 background: rgba(255, 255, 255, 0.95);
+                 border-radius: 15px;
+                 padding: 30px;
+                 margin: 20px auto;
+                 max-width: 700px;
+                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                 text-align: center;
+             }
+             
+             .booking-section h3 {
+                 color: #007bff;
+                 margin-bottom: 20px;
+                 font-size: 1.4em;
+                 font-weight: 600;
+             }
+             
+             .booking-content p {
+                 color: #666;
+                 margin-bottom: 25px;
+                 font-size: 1.1em;
+                 line-height: 1.6;
+             }
+             
+             .booking-button {
+                 margin: 25px 0;
+             }
+             
+             .book-btn {
+                 background: linear-gradient(135deg, #28a745, #20c997);
+                 color: white;
+                 text-decoration: none;
+                 padding: 15px 30px;
+                 border-radius: 8px;
+                 font-weight: 600;
+                 font-size: 1.2em;
+                 transition: all 0.3s ease;
+                 display: inline-flex;
+                 align-items: center;
+                 gap: 10px;
+                 border: none;
+                 cursor: pointer;
+             }
+             
+             .book-btn:hover {
+                 background: linear-gradient(135deg, #20c997, #17a2b8);
+                 transform: translateY(-2px);
+                 box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+                 color: white;
+                 text-decoration: none;
+             }
+             
+             .booking-details {
+                 margin-top: 25px;
+                 text-align: left;
+                 background: #f8f9fa;
+                 padding: 20px;
+                 border-radius: 8px;
+                 border-left: 4px solid #28a745;
+             }
+             
+             .booking-details p {
+                 color: #333;
+                 font-weight: 600;
+                 margin-bottom: 15px;
+             }
+             
+             .booking-details ul {
+                 list-style: none;
+                 padding-left: 0;
+                 margin: 0;
+             }
+             
+             .booking-details li {
+                 color: #555;
+                 margin-bottom: 8px;
+                 padding-left: 20px;
+                 position: relative;
+                 line-height: 1.5;
+             }
+             
+             .booking-details li:before {
+                 content: "✓";
+                 color: #28a745;
+                 font-weight: bold;
+                 position: absolute;
+                 left: 0;
+             }
+             
+             /* Simple Contact Section */
+             .simple-contact {
+                 background: rgba(255, 255, 255, 0.95);
+                 border-radius: 15px;
+                 padding: 25px;
+                 margin: 20px auto;
+                 max-width: 600px;
+                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                 text-align: center;
+             }
             
             .simple-contact h3 {
                 color: #007bff;
@@ -514,36 +628,54 @@
                 box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
             }
             
-            /* Responsive Design */
-            @media (max-width: 768px) {
-                .modal-content {
-                    width: 95%;
-                    margin: 5% auto;
-                    max-height: 95vh;
-                }
-                
-                .modal-header {
-                    padding: 15px 20px;
-                }
-                
-                .modal-header h2 {
-                    font-size: 1.2em;
-                }
-                
-                .modal-body {
-                    padding: 15px;
-                }
-                
-                .contact-links {
-                    flex-direction: column;
-                    align-items: center;
-                }
-                
-                .contact-links .contact-link {
-                    width: 200px;
-                    text-align: center;
-                }
-            }
+                         /* Responsive Design */
+             @media (max-width: 768px) {
+                 .modal-content {
+                     width: 95%;
+                     margin: 5% auto;
+                     max-height: 95vh;
+                 }
+                 
+                 .modal-header {
+                     padding: 15px 20px;
+                 }
+                 
+                 .modal-header h2 {
+                     font-size: 1.2em;
+                 }
+                 
+                 .modal-body {
+                     padding: 15px;
+                 }
+                 
+                 .booking-section {
+                     margin: 15px;
+                     padding: 20px;
+                 }
+                 
+                 .booking-section h3 {
+                     font-size: 1.2em;
+                 }
+                 
+                 .book-btn {
+                     padding: 12px 25px;
+                     font-size: 1.1em;
+                 }
+                 
+                 .booking-details {
+                     padding: 15px;
+                 }
+                 
+                 .contact-links {
+                     flex-direction: column;
+                     align-items: center;
+                 }
+                 
+                 .contact-links .contact-link {
+                     width: 200px;
+                     text-align: center;
+                 }
+             }
         </style>
 
         <!-- Modal JavaScript -->
