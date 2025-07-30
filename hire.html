@@ -180,14 +180,71 @@
         <div class="site" id="page">
             <a class="skip-link sr-only" href="#main">Skip to content</a>
 
+            <!-- Professional Header Section -->
+            <div class="professional-header">
+                <div class="header-content">
+                    <div class="header-text">
+                        <h1 class="header-title">Fausto Rosado</h1>
+                        <p class="header-subtitle">IT Professional & Cybersecurity Specialist</p>
+                        <div class="header-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">1550+</span>
+                                <span class="stat-label">Jobs Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">4.9/5</span>
+                                <span class="stat-label">Customer Rating</span>
+                            </div>
+                        </div>
+                        <div class="header-description">
+                            <p>Cybersecurity expert with extensive experience in IT support, network security, and web development. 
+                            Specializing in enterprise-level security solutions and full-stack development.</p>
+                        </div>
+                    </div>
+                    <div class="header-actions">
+                        <button id="resume-modal-btn" class="header-resume-btn">
+                            <span class="btn-icon">📄</span>
+                            <span class="btn-text">View Full Resume</span>
+                        </button>
+                        <a href="https://www.hellotech.com/schedule/240665" target="_blank" class="header-book-btn">
+                            <span class="btn-icon">🔧</span>
+                            <span class="btn-text">Book Services</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enhanced Hero Section -->
             <section class="hero-section hero-section--slider clearfix">
                 <div class="hero-section__wrap">
 
                     <!-- Options slick plugin: data-arrows="true/false" | data-dots="true/false" | data-fade="true/false" | data-autoplay="true/false/number" | data-speed="number" -->
-                    <div class="hero-section__option" data-init="slick" data-arrows="false" data-dots="false" data-fade="false" data-autoplay="5000" data-speed="3000">
-                        <img src="assets/images/index.jpg" alt="Hero section image">
-                        <img src="assets/images/index-slider1.jpg" alt="Hero section image">
-                        <img src="assets/images/index-slider2.jpg" alt="Hero section image">
+                    <div class="hero-section__option" data-init="slick" data-arrows="false" data-dots="true" data-fade="false" data-autoplay="4000" data-speed="2000">
+                        <div class="slide-content">
+                            <img src="assets/images/index.jpg" alt="IT Support & Cybersecurity">
+                            <div class="slide-overlay">
+                                <h3>IT Support & Cybersecurity</h3>
+                                <p>Professional IT solutions for businesses and individuals</p>
+                            </div>
+                        </div>
+                        <div class="slide-content">
+                            <img src="assets/images/index-slider1.jpg" alt="Web Development">
+                            <div class="slide-overlay">
+                                <h3>Web Development</h3>
+                                <p>Full-stack applications with modern technologies</p>
+                            </div>
+                        </div>
+                        <div class="slide-content">
+                            <img src="assets/images/index-slider2.jpg" alt="Network Security">
+                            <div class="slide-overlay">
+                                <h3>Network Security</h3>
+                                <p>Enterprise-level security and infrastructure</p>
+                            </div>
+                        </div>
                     </div>
                     <!-- .hero-section__option -->
 
@@ -195,11 +252,8 @@
                         <div class="row">
                             <div class="offset-lg-2 col-lg-8">
                                 <div class="title-01 title-01--11 text-center">
-                                    <h2 class="title__heading">Hire Me!</h2>
-                                    <div class="title__description"></div>
-
-                                    <!-- Options btn color: .btn-success | .btn-info | .btn-warning | .btn-danger | .btn-primary -->
-                                    
+                                    <h2 class="title__heading">Professional Services</h2>
+                                    <div class="title__description">Cybersecurity • IT Support • Web Development</div>
                                 </div>
                                 <!-- .title-01 -->
                             </div>
@@ -222,13 +276,7 @@
             </section>
             <!-- .hero-section -->
             
-            <!-- Resume Modal Trigger -->
-            <div class="resume-trigger">
-                <button id="resume-modal-btn" class="resume-btn">
-                    <span class="btn-icon">📄</span>
-                    <span class="btn-text">View Resume</span>
-                </button>
-            </div>
+
             
             <!-- Resume Modal -->
             <div id="resume-modal" class="modal">
@@ -371,9 +419,159 @@
             </div>
         </div>
 
-        <!-- Modal and Contact Styles -->
+        <!-- Enhanced Styles -->
         <style>
-            /* Resume Trigger Button */
+            /* Professional Header */
+            .professional-header {
+                background: linear-gradient(135deg, #1e3c72, #2a5298);
+                color: white;
+                padding: 60px 0;
+                margin-bottom: 0;
+            }
+            
+            .header-content {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 40px;
+            }
+            
+            .header-text {
+                flex: 1;
+            }
+            
+            .header-title {
+                font-size: 3.5em;
+                font-weight: 700;
+                margin-bottom: 10px;
+                background: linear-gradient(45deg, #fff, #e3f2fd);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            
+            .header-subtitle {
+                font-size: 1.4em;
+                color: #b3d9ff;
+                margin-bottom: 30px;
+                font-weight: 500;
+            }
+            
+            .header-stats {
+                display: flex;
+                gap: 30px;
+                margin-bottom: 25px;
+            }
+            
+            .stat-item {
+                text-align: center;
+            }
+            
+            .stat-number {
+                display: block;
+                font-size: 2em;
+                font-weight: 700;
+                color: #4fc3f7;
+            }
+            
+            .stat-label {
+                font-size: 0.9em;
+                color: #b3d9ff;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            
+            .header-description {
+                font-size: 1.1em;
+                line-height: 1.6;
+                color: #e3f2fd;
+                max-width: 500px;
+            }
+            
+            .header-actions {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                min-width: 250px;
+            }
+            
+            .header-resume-btn, .header-book-btn {
+                background: linear-gradient(135deg, #007bff, #0056b3);
+                color: white;
+                border: none;
+                padding: 15px 25px;
+                border-radius: 8px;
+                font-size: 1.1em;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-family: 'Montserrat', sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                text-decoration: none;
+            }
+            
+            .header-resume-btn:hover, .header-book-btn:hover {
+                background: linear-gradient(135deg, #0056b3, #004085);
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+                color: white;
+                text-decoration: none;
+            }
+            
+            .header-book-btn {
+                background: linear-gradient(135deg, #28a745, #20c997);
+            }
+            
+            .header-book-btn:hover {
+                background: linear-gradient(135deg, #20c997, #17a2b8);
+                box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+            }
+            
+            /* Enhanced Hero Section */
+            .slide-content {
+                position: relative;
+                height: 400px;
+                overflow: hidden;
+            }
+            
+            .slide-content img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            
+            .slide-overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+                color: white;
+                padding: 40px 20px 20px;
+                text-align: center;
+            }
+            
+            .slide-overlay h3 {
+                font-size: 1.8em;
+                font-weight: 600;
+                margin-bottom: 10px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+            
+            .slide-overlay p {
+                font-size: 1.1em;
+                margin: 0;
+                opacity: 0.9;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            }
+            
+            /* Resume Trigger Button (Legacy - now in header) */
             .resume-trigger {
                 text-align: center;
                 margin: 30px auto;
@@ -630,6 +828,60 @@
             
                          /* Responsive Design */
              @media (max-width: 768px) {
+                 .professional-header {
+                     padding: 40px 0;
+                 }
+                 
+                 .header-content {
+                     flex-direction: column;
+                     text-align: center;
+                     gap: 30px;
+                 }
+                 
+                 .header-title {
+                     font-size: 2.5em;
+                 }
+                 
+                 .header-subtitle {
+                     font-size: 1.2em;
+                 }
+                 
+                 .header-stats {
+                     justify-content: center;
+                     gap: 20px;
+                 }
+                 
+                 .stat-number {
+                     font-size: 1.5em;
+                 }
+                 
+                 .header-actions {
+                     flex-direction: row;
+                     justify-content: center;
+                     min-width: auto;
+                 }
+                 
+                 .header-resume-btn, .header-book-btn {
+                     padding: 12px 20px;
+                     font-size: 1em;
+                 }
+                 
+                 .slide-content {
+                     height: 300px;
+                 }
+                 
+                 .slide-overlay {
+                     padding: 30px 15px 15px;
+                 }
+                 
+                 .slide-overlay h3 {
+                     font-size: 1.4em;
+                 }
+                 
+                 .slide-overlay p {
+                     font-size: 1em;
+                 }
+                 
                  .modal-content {
                      width: 95%;
                      margin: 5% auto;
